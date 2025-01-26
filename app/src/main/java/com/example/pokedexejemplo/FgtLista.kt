@@ -2,6 +2,7 @@ package com.example.pokedexejemplo
 
 import android.content.Context
 import android.os.Bundle
+import android.os.Debug
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View

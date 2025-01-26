@@ -37,10 +37,10 @@ class PokemonAdapter: ListAdapter<Pokemon, PokemonAdapter.ViewHolder>(DiffCallba
     inner class ViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
         private val idText = view.findViewById<TextView>(com.example.pokedexejemplo.R.id.pokemon_id)
         private val nameText = view.findViewById<TextView>(com.example.pokedexejemplo.R.id.pokemon_name)
-        private val typeImage = view.findViewById<ImageView>(com.example.pokedexejemplo.R.id.pokemon_item_img)
+      //  private val typeImage = view.findViewById<ImageView>(com.example.pokedexejemplo.R.id.pokemon_item_img)
 
         fun bind(pokemon: Pokemon) {
-            idText.text = pokemon.id.toString()
+            idText.text = "-25-"//pokemon.id.toString()
             nameText.text = pokemon.strName
 
 //            val imageId = when(pokemon.type) {
